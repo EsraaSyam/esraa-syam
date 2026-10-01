@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 780">
+  <defs>
+    <linearGradient id="mood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17152d"/>
+      <stop offset="0.55" stop-color="#50498f"/>
+      <stop offset="1" stop-color="#c38b9d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="36%" r="52%">
+      <stop offset="0" stop-color="#f9e6ca" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#f9e6ca" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="700" height="780" fill="url(#mood)"/>
+  <circle cx="385" cy="260" r="250" fill="url(#glow)"/>
+  <circle cx="440" cy="205" r="68" fill="#f9e6ca" opacity="0.92"/>
+  <circle cx="470" cy="180" r="68" fill="#514b8d"/>
+  <g fill="#fff1d8">
+    <circle cx="150" cy="158" r="4"/>
+    <circle cx="246" cy="104" r="3"/>
+    <circle cx="566" cy="124" r="4"/>
+    <circle cx="570" cy="326" r="3"/>
+  </g>
+  <path d="M0 625c94-93 158-54 233-118 82-70 120 32 197-18 90-59 157-71 270-8v299H0Z" fill="#101025"/>
+  <path d="M108 700c20-145 52-207 78-267 35 72 53 126 72 267M149 556h-67M179 608h88" stroke="#0a0b19" stroke-width="24" stroke-linecap="round"/>
+  <path d="M518 700c9-76 30-112 59-153 20 44 32 82 43 153" stroke="#0a0b19" stroke-width="20" stroke-linecap="round"/>
+  <text x="350" y="742" fill="#fff1d8" opacity="0.72" text-anchor="middle" font-family="sans-serif" font-size="18" letter-spacing="4">A QUIET MOOD</text>
+</svg>
