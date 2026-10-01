@@ -30,7 +30,7 @@ export default function ContactSection() {
           ))}
         </div>
         <div className="contact-actions mt-6 -ml-2">
-          <Link href="/cv.pdf" className="button button-outline" download>
+          <Link href="/EsraaSyamResume.pdf" className="button button-outline" download>
             <Download size={16} /> Download CV
           </Link>
         </div>
