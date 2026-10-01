@@ -4,11 +4,15 @@ import type { Project } from "@/data/portfolio";
 import Reveal from "@/components/Reveal";
 
 export default function ProjectCard({ project }: { project: Project }) {
+  const imageSrc = `${
+    process.env.NODE_ENV === "production" ? "/esraa-syam" : ""
+  }${project.image}`;
+
   return (
     <Reveal className="project-card">
       <div className="project-image">
         <Image
-          src={project.image}
+          src={imageSrc}
           alt={`${project.title} project preview`}
           fill
           sizes="(max-width: 768px) 100vw, 50vw"

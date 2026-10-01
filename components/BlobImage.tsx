@@ -10,12 +10,16 @@ export default function BlobImage({
   alt: string;
   handwritten: string;
 }) {
+  const imageSrc = `${
+    process.env.NODE_ENV === "production" ? "/esraa-syam" : ""
+  }${src}`;
+
   return (
     <div className="blob-scene">
       <div className="blob-outline" />
       <div className="blob-image">
         <Image
-          src={src}
+          src={imageSrc}
           alt={alt}
           fill
           sizes="(max-width: 768px) 85vw, 42vw"
